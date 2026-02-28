@@ -204,7 +204,7 @@ NOTE: This is Header style file. All Header related style included in this file.
 }
 
 .sticky .main-menu>nav>ul>li {
-    padding: 20px 0;
+    padding: 48px 0 40px;
 }
 
 .sticky .logo {
