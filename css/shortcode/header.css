@@ -11,7 +11,7 @@ NOTE: This is Header style file. All Header related style included in this file.
 .header-area:after {
     background: #000000 none repeat scroll 0 0;
     content: "";
-    height: 141px;
+    height: 100%;
     left: -5%;
     position: absolute;
     top: 0;
@@ -230,7 +230,7 @@ NOTE: This is Header style file. All Header related style included in this file.
 }
 
 .sticky.header-area::after {
-    height: 57px;
+    height: 100%;
 }
 
 .sticky .main-menu ul {
