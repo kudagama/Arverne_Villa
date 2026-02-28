@@ -281,20 +281,19 @@ form.search-form {
   color: #ffffff;
   transition: all 0.3s ease 0s;
   width: 100%;
-}
-
-.single-room:hover .hover-text>h3 {
-  /* top: 26%; removed for flex */
+  margin-bottom: 15px !important;
+  top: auto !important;
+  position: relative !important;
 }
 
 .hover-text>p {
-  bottom: 41%;
   color: #ffffff;
   opacity: 0;
-  padding: 0;
-  position: absolute;
+  padding: 0 10px !important;
   transform: translateY(100px);
   transition: all 0.3s ease-in-out 0.1s;
+  bottom: auto !important;
+  position: relative !important;
 }
 
 .large .hover-text>p {
@@ -328,6 +327,8 @@ form.search-form {
   opacity: 0;
   transform: translateY(100px);
   transition: all 0.3s ease-in-out 0.1s;
+  bottom: auto !important;
+  position: relative !important;
 }
 
 .single-room:hover .room-btn {
