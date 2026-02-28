@@ -209,24 +209,29 @@ form.search-form {
 
 .single-room {
   float: none;
-  width: 50%;
+  width: 100%;
+  max-width: 580px;
+  margin: 0 15px 30px;
   position: relative;
 }
 
 .single-room.small {
-  width: 50%;
+  width: 100%;
 }
 
 .single-room.large {
-  width: 50%;
+  width: 100%;
 }
 
 .single-room.medium {
-  width: 50%;
+  width: 100%;
 }
 
 .single-room img {
-  max-width: 100%;
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+  display: block;
 }
 
 .room-hover {
@@ -283,17 +288,21 @@ form.search-form {
   width: 100%;
   margin-bottom: 15px !important;
   top: auto !important;
+  left: auto !important;
+  transform: none !important;
   position: relative !important;
 }
 
 .hover-text>p {
   color: #ffffff;
   opacity: 0;
-  padding: 0 10px !important;
-  transform: translateY(100px);
+  padding: 0 40px !important;
+  transform: translateY(30px);
   transition: all 0.3s ease-in-out 0.1s;
   bottom: auto !important;
+  top: auto !important;
   position: relative !important;
+  line-height: 1.6;
 }
 
 .large .hover-text>p {
@@ -319,16 +328,20 @@ form.search-form {
   z-index: 2;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
+  /* Push items lower so they distribute better over the image */
   align-items: center;
+  padding-bottom: 80px;
 }
 
 .hover-text .room-btn {
   opacity: 0;
-  transform: translateY(100px);
+  transform: translateY(30px);
   transition: all 0.3s ease-in-out 0.1s;
   bottom: auto !important;
+  top: auto !important;
   position: relative !important;
+  margin-top: 20px !important;
 }
 
 .single-room:hover .room-btn {
@@ -345,13 +358,13 @@ form.search-form {
 }
 
 .p-amount {
-  bottom: 26px;
+  bottom: 26px !important;
   color: #ffffff;
   position: absolute;
-  right: 28px;
+  right: 28px !important;
   transform: translateX(100px);
   transition: all 0.3s ease-in-out 0.1s;
-  z-index: 2;
+  z-index: 3;
 }
 
 .p-amount>span {
