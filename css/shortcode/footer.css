@@ -11,15 +11,24 @@ NOTE: This is Footer style file. All footer related style included in this file.
 .footer-area {
   color: #f7f7f7;
 }
+
 .footer-widget-area {
   padding: 130px 0 61px;
 }
-.footer-logo > a {
+
+.footer-logo>a {
   display: inline-block;
 }
+
+.footer-logo img {
+  max-width: 250px;
+  height: auto;
+}
+
 .footer-logo {
   margin-bottom: 29px;
 }
+
 .social-icons a {
   border: 1px solid #b1b1b1;
   color: #b1b1b1;
@@ -33,46 +42,56 @@ NOTE: This is Footer style file. All footer related style included in this file.
   transition: all 0.5s ease 0s;
   width: 33px;
 }
-.social-icons > a:last-child {
+
+.social-icons>a:last-child {
   margin-right: 0;
 }
-.social-icons > a:hover {
+
+.social-icons>a:hover {
   background: #b5876d none repeat scroll 0 0;
   border-color: #b5876d;
   color: #ffffff;
 }
+
 .social-icons {
   margin-top: 43px;
 }
-.single-footer-widget > h3 {
+
+.single-footer-widget>h3 {
   color: #ffffff;
   font-size: 18px;
   line-height: 14px;
   margin-bottom: 45px;
   text-transform: uppercase;
 }
+
 .footer-list li {
   margin-bottom: 4px;
 }
+
 .footer-list a {
   color: #f7f7f7;
   font-size: 15px;
   line-height: 26px;
 }
+
 .footer-list li a {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+
 .footer-list li a:hover {
   color: #b5876d;
 }
-.c-info > span:last-child {
+
+.c-info>span:last-child {
   display: block;
   font-size: 15px;
   line-height: 24px;
   padding-left: 50px;
 }
-.c-info > span:first-child {
+
+.c-info>span:first-child {
   border: 1px solid #ffffff;
   color: #b5876d;
   display: inline-table;
@@ -86,16 +105,19 @@ NOTE: This is Footer style file. All footer related style included in this file.
   transition: all 0.2s linear 0s;
   width: 33px;
 }
-.c-info > span:first-child i {
+
+.c-info>span:first-child i {
   display: table-cell;
   vertical-align: middle;
 }
+
 .c-info {
   margin-bottom: 17px;
   overflow: hidden;
   position: relative;
 }
-.c-info:hover > span:first-child {
+
+.c-info:hover>span:first-child {
   background: #ffffff none repeat scroll 0 0;
 }
 
@@ -106,13 +128,13 @@ NOTE: This is Footer style file. All footer related style included in this file.
   gap: 10px;
 }
 
-.footer-img a img{
-    width: 100%;
-    object-fit: cover;
+.footer-img a img {
+  width: 100%;
+  object-fit: cover;
 }
 
-.footer-img a{
-    width: 100%;
+.footer-img a {
+  width: 100%;
 }
 
 .footer-img a,
@@ -120,6 +142,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
   display: inline-block;
   position: relative;
 }
+
 .footer-img a:before,
 .post-img a:before {
   background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
@@ -140,6 +163,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
   width: 100%;
   content: "";
 }
+
 .footer-img a:hover:before,
 .post-content:hover a:before {
   opacity: 1;
@@ -149,6 +173,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
   transform: scaleY(1);
   visibility: visible;
 }
+
 .footer-img a:after,
 .post-img a:after {
   color: #ffffff;
@@ -168,21 +193,26 @@ NOTE: This is Footer style file. All footer related style included in this file.
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
+
 .footer-img a:hover:after,
 .post-content:hover a:after {
   opacity: 1;
   filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
+
 .footer-bottom-area {
   padding: 24px 0;
 }
+
 .footer-text span a {
   color: #b5876d;
 }
+
 .footer-text span a:hover {
   border-bottom: 1px solid #b5876d;
 }
-.footer-text > span {
+
+.footer-text>span {
   display: block;
 }
