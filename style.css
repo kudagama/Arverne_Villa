@@ -369,7 +369,7 @@ form.search-form {
 
 .p-amount>span {
   display: block;
-  font-family: "Raleway", sans-serif;
+  font-family: "Cinzel", serif;
   font-size: 30px;
   font-weight: 700;
 }
@@ -415,7 +415,7 @@ form.search-form {
 }
 
 .title {
-  font-family: "raleway";
+  font-family: "Cinzel";
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 6px;
@@ -486,14 +486,14 @@ span.image.s-img {
 
 .single-fun-factor>h1 {
   color: #ffffff;
-  font-family: "Lato", sans-serif;
+  font-family: "Jost", sans-serif;
   font-size: 60px;
   font-weight: 700;
 }
 
 .single-fun-factor>h4 {
   color: #ffffff;
-  font-family: "Lato", sans-serif;
+  font-family: "Jost", sans-serif;
   font-size: 18px;
   font-weight: 400;
   padding-top: 17px;
@@ -587,7 +587,7 @@ span.image.s-img {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   border: 0 none;
   color: #444444;
-  font-family: "raleway";
+  font-family: "Cinzel";
   font-size: 18px;
   line-height: 17px;
   padding: 0 21px;
@@ -649,7 +649,7 @@ span.image.s-img {
 
 .team-hover span {
   color: #ffffff;
-  font-family: "raleway";
+  font-family: "Cinzel";
   font-size: 16px;
   margin-bottom: 14px;
   transform: translate3d(0px, 200%, 0px);
@@ -1067,7 +1067,7 @@ span.image.s-img {
 .newsletter-form input {
   border: 1px solid #b7b6b6;
   color: #4d4d4d;
-  font-family: "raleway";
+  font-family: "Cinzel";
   font-size: 14px;
   height: 38px;
   padding: 0 8px;
@@ -1209,7 +1209,7 @@ span.image.s-img {
 }
 
 .room-service p {
-  font-family: "raleway";
+  font-family: "Cinzel";
   width: 77%;
   margin-bottom: 0;
 }
@@ -1376,7 +1376,7 @@ span.image.s-img {
 
 .single-facility>span {
   display: block;
-  font-family: "raleway";
+  font-family: "Cinzel";
   line-height: 25px;
   margin-bottom: 10px;
 }
@@ -1413,7 +1413,7 @@ span.image.s-img {
 
 .cost>span {
   display: block;
-  font-family: "raleway";
+  font-family: "Cinzel";
   font-size: 15px;
   padding-top: 5px;
 }
@@ -1448,7 +1448,7 @@ span.image.s-img {
 
 .cost>span {
   display: block;
-  font-family: "raleway";
+  font-family: "Cinzel";
   font-size: 15px;
   padding-top: 5px;
 }
@@ -1535,7 +1535,7 @@ span.image.s-img {
 }
 
 .post-text h4 {
-  font-family: "Lato", sans-serif;
+  font-family: "Jost", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 11px;
@@ -1613,7 +1613,7 @@ span.image.s-img {
 
 .location-text>h3 {
   color: #252525;
-  font-family: "Lato", sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
   margin-bottom: 13px;
   font-size: 24px;
