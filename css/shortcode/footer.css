@@ -94,26 +94,21 @@ NOTE: This is Footer style file. All footer related style included in this file.
 .c-info>span:first-child {
   border: 1px solid #ffffff;
   color: #b5876d;
-  display: inline-table;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 18px;
   height: 33px;
   left: 0;
   position: absolute;
-  text-align: center;
-  top: 7px;
+  top: 0;
   -webkit-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
   width: 33px;
 }
 
-.c-info>span:first-child i {
-  display: table-cell;
-  vertical-align: middle;
-}
-
 .c-info {
   margin-bottom: 17px;
-  overflow: hidden;
   position: relative;
 }
 

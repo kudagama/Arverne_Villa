@@ -52,7 +52,7 @@ NOTE: This is Header style file. All Header related style included in this file.
 .header-contact>span {
     color: #ffffff;
     display: inline-block;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Jost", sans-serif;
     font-size: 13px;
 }
 
@@ -156,7 +156,7 @@ NOTE: This is Header style file. All Header related style included in this file.
     border-radius: 2px;
     color: #444;
     display: block;
-    font-family: "Poppins", sans-serif;
+    font-family: "Jost", sans-serif;
     font-size: 13px;
     padding: 8px 15px;
     text-transform: capitalize;
