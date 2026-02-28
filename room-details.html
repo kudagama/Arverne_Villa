@@ -196,10 +196,12 @@
                             <div class="form-container fix">
                                 <div class="box-select">
                                     <div class="select date">
-                                        <input type="date" name="arrive">
+                                        <input type="text" name="arrive" placeholder="YYYY-MM-DD"
+                                            onfocus="(this.type='date')" onblur="if(!this.value) this.type='text'">
                                     </div>
                                     <div class="select date">
-                                        <input type="date" name="departure">
+                                        <input type="text" name="departure" placeholder="YYYY-MM-DD"
+                                            onfocus="(this.type='date')" onblur="if(!this.value) this.type='text'">
                                     </div>
                                     <div class="select arrow">
                                         <select name="adults">
