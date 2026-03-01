@@ -450,8 +450,14 @@
   }
 
   .banner-content h1 {
-    font-size: 34px;
-    padding-top: 0;
+    font-size: 24px;
+    padding-top: 5px;
+  }
+
+  .banner-btn a {
+    font-size: 12px;
+    line-height: 30px;
+    padding: 0 25px;
   }
 
   .slider-area {
@@ -663,6 +669,10 @@
 
   .footer-img img {
     width: 82px;
+  }
+
+  .footer-logo {
+    text-align: center;
   }
 
   .team-area {
