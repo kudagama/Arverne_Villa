@@ -95,6 +95,11 @@ NOTE: This is Header style file. All Header related style included in this file.
     position: relative;
 }
 
+.main-menu {
+    margin-top: 35px;
+    margin-left: 100px;
+}
+
 .main-menu ul li {
     display: inline-block;
     margin: 0 13px;
@@ -204,8 +209,12 @@ NOTE: This is Header style file. All Header related style included in this file.
     z-index: 99;
 }
 
+.sticky .main-menu {
+    margin-top: 0;
+}
+
 .sticky .main-menu>nav>ul>li {
-    padding: 48px 0 40px;
+    padding: 48px 0 35px;
 }
 
 .sticky .logo {
