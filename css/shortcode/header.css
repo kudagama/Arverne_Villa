@@ -33,12 +33,12 @@ NOTE: This is Header style file. All Header related style included in this file.
 
 .logo img {
     transition: all 0.5s ease 0s;
-    max-height: 120px;
+    max-height: 80px;
     width: auto;
 }
 
 .header-area {
-    background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+    background: #000000 none repeat scroll 0 0;
     position: relative;
 }
 
@@ -97,13 +97,13 @@ NOTE: This is Header style file. All Header related style included in this file.
 
 .main-menu {
     margin-top: 35px;
-    margin-left: 100px;
+    margin-left: 255px;
 }
 
 .main-menu ul li {
     display: inline-block;
     margin: 0 13px;
-    padding: 26px 0;
+    padding: 10px 0;
     position: relative;
 }
 
@@ -200,7 +200,7 @@ NOTE: This is Header style file. All Header related style included in this file.
 .header-sticky.sticky {
     -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
     animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-    background: rgba(0, 0, 0, 0.68) none repeat scroll 0 0;
+    background: #000000 none repeat scroll 0 0;
     left: 0;
     padding: 0;
     position: fixed;
@@ -214,7 +214,7 @@ NOTE: This is Header style file. All Header related style included in this file.
 }
 
 .sticky .main-menu>nav>ul>li {
-    padding: 48px 0 35px;
+    padding: 42px 0 35px;
 }
 
 .sticky .logo {
@@ -236,7 +236,9 @@ NOTE: This is Header style file. All Header related style included in this file.
 }
 
 .sticky .logo img {
-    width: 79%;
+    width: auto;
+    max-height: 70px;
+    margin-top: 1px;
 }
 
 .sticky.header-area::after {
