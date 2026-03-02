@@ -37,7 +37,7 @@ NOTE: This is Slider style file. All Slider related style included in this file.
 .slider-area {
     position: relative;
     overflow: hidden;
-    height: 100vh;
+    height: 90vh;
 }
 
 .text-content-wrapper,
