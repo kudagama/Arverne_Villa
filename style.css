@@ -514,14 +514,112 @@ span.image.s-img {
 }
 
 /*----------------------------------------*/
-/*  5. Gallery Area
+/*  5. Gallery Area - Modern Masonry
 /*----------------------------------------*/
+
+/* -- Masonry columns container -- */
+.gallery-masonry-wrap {
+  column-count: 4;
+  column-gap: 6px;
+  padding: 0 30px 30px;
+}
+
+.gallery-masonry-wrap .gal-item {
+  break-inside: avoid;
+  margin-bottom: 6px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+}
+
+.gallery-masonry-wrap .gal-item img {
+  width: 100%;
+  display: block;
+  transition: transform 0.55s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.gallery-masonry-wrap .gal-item:hover img {
+  transform: scale(1.08);
+}
+
+/* Hover overlay */
+.gallery-masonry-wrap .gal-item .gal-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.15) 60%, transparent 100%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 20px 18px;
+}
+
+.gallery-masonry-wrap .gal-item:hover .gal-overlay {
+  opacity: 1;
+}
+
+.gallery-masonry-wrap .gal-item .gal-overlay .gal-zoom {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border: 1.5px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 18px;
+  transition: background 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: all 0.35s ease 0.05s;
+}
+
+.gallery-masonry-wrap .gal-item:hover .gal-overlay .gal-zoom {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.gallery-masonry-wrap .gal-item .gal-overlay .gal-zoom:hover {
+  background: #b5876d;
+  border-color: #b5876d;
+  color: #fff;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1199px) {
+  .gallery-masonry-wrap {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 767px) {
+  .gallery-masonry-wrap {
+    column-count: 2;
+    padding: 0 10px 20px;
+    column-gap: 5px;
+  }
+
+  .gallery-masonry-wrap .gal-item {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-masonry-wrap {
+    column-count: 1;
+  }
+}
+
+/* ---- Legacy gallery (isotope) kept for backwards compat ---- */
 .gallery-item {
   width: 25%;
   overflow: hidden;
   padding: 8px;
   float: left;
-  /* Isotope might need this for some cases, though it usually does positioning. Let's provide a stable float for safety. */
 }
 
 .gallery-item.v-2 {
