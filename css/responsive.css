@@ -675,6 +675,11 @@
     text-align: center;
   }
 
+  /* Reduce gap between footer logo and description text on mobile */
+  .footer-widget-area .row>.col-12:first-child {
+    margin-bottom: 0px !important;
+  }
+
   .team-area {
     padding: 50px 0 30px;
   }
